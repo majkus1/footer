@@ -36,14 +36,6 @@
         display: flex;
       }
 
-      /* #footer-gobet .box-two {
-        order: 1;
-      }
-
-      .#footer-gobet .box-one {
-        order: 2;
-      } */
-
       #footer-gobet .links-and-sm .box-one,
       #footer-gobet .links-and-sm .box-one .pages .links-one,
       #footer-gobet .links-and-sm .box-one .pages .links-two,
@@ -61,12 +53,19 @@
         align-items: center;
       }
 
-      #footer-gobet .links-and-sm .box-one .pages .links-one .information-links .allinfolinks {
+      #footer-gobet
+        .links-and-sm
+        .box-one
+        .pages
+        .links-one
+        .information-links
+        .allinfolinks {
         display: flex;
         flex-direction: column;
       }
 
-      .links-one
+      #footer-gobet
+        .links-one
         .information-links
         .allinfolinks
         .link-page:nth-child(10):after,
@@ -146,16 +145,17 @@
         gap: 25px;
       }
 
-      #footer-gobet .box-four .sponsors img:nth-child(1) {
+      #footer-gobet .box-four .sponsors .rally-logo {
         width: 117px;
         height: 51px;
       }
-      #footer-gobet .box-four .sponsors img:nth-child(2) {
+
+      #footer-gobet .box-four .sponsors .wisla-logo {
         width: 57px;
         height: 64px;
       }
 
-      .box-five .logo-and-dscrb {
+      #footer-gobet .box-five .logo-and-dscrb {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -174,35 +174,39 @@
         font-weight: lighter;
       }
 
-      .information-links {
+      #footer-gobet .information-links {
         display: flex;
         flex-direction: column;
       }
 
-      .three-other {
+      #footer-gobet .three-other {
         display: flex;
         flex-direction: column;
       }
 
-      .sm-links {
+      #footer-gobet .sm-links {
         display: flex;
         gap: 10px;
       }
 
-      .sm-links .links-row {
+      #footer-gobet .sm-links .links-row {
         display: flex;
         gap: 10px;
       }
 
-      .sm-title {
+      #footer-gobet .sm-title {
         display: none;
       }
 
-      .box-five .logo-and-dscrb .xl-new-line {
-          display: inline;
-        }
+      #footer-gobet .box-five .logo-and-dscrb .xl-new-line {
+        display: inline;
+      }
 
-      @media (min-width: 625px) {
+      #footer-gobet .box-one .pages .link-page:hover {
+        text-decoration: underline;
+      }
+
+      @media (min-width: 1025px) {
         #footer-gobet .first-desktop-box .box-xl-first {
           display: flex;
           justify-content: center;
@@ -226,7 +230,6 @@
           justify-content: space-between;
           align-items: center;
           order: 1;
-          /* margin-right: 100px; */
           gap: 115px;
         }
 
@@ -246,7 +249,7 @@
           order: 5;
         }
 
-        .box-three:before {
+        #footer-gobet .box-three:before {
           content: "";
           display: block;
           width: 0.5px;
@@ -257,7 +260,7 @@
           top: 17px;
         }
 
-        .box-three {
+        #footer-gobet .box-three {
           position: relative;
           display: flex;
           align-items: center;
@@ -282,17 +285,17 @@
           margin-top: 0;
         }
 
-        #footer-gobet  > div.box-one > div > div.links-two {
+        #footer-gobet > div.box-one > div > div.links-two {
           display: flex;
           flex-direction: row;
           gap: 75px;
         }
 
-        #footer-gobet  > div.box-one > div > div.links-two > div.productslinks {
+        #footer-gobet > div.box-one > div > div.links-two > div.productslinks {
           order: 1;
         }
 
-        #footer-gobet 
+        #footer-gobet
           > div.links-and-sm
           > div.box-one
           > div
@@ -302,24 +305,25 @@
           margin-top: 0 !important;
         }
 
-        #footer-gobet  > div.box-one > div > div.links-two > div.offerlinks {
+        #footer-gobet > div.box-one > div > div.links-two > div.offerlinks {
           order: 2;
         }
 
-        .links-one
+        #footer-gobet
+          .links-one
           .information-links
           .allinfolinks
           .link-page:nth-child(10):after {
           display: none;
         }
 
-        #footer-gobet  > div.box-one > div > div.links-one > div {
+        #footer-gobet > div.box-one > div > div.links-one > div {
           display: flex;
           flex-direction: row;
           gap: 95px;
         }
 
-        #footer-gobet 
+        #footer-gobet
           > div.box-one
           > div
           > div.links-one
@@ -328,7 +332,7 @@
           order: 1;
         }
 
-        #footer-gobet 
+        #footer-gobet
           > div.box-one
           > div
           > div.links-one
@@ -342,7 +346,7 @@
           gap: 75px;
         }
 
-        .links-and-sm {
+        #footer-gobet .links-and-sm {
           display: flex;
           justify-content: center;
           order: 3;
@@ -352,7 +356,7 @@
           padding-bottom: 18px;
         }
 
-        .information-links {
+        #footer-gobet .information-links {
           display: flex;
           flex-direction: row;
         }
@@ -362,7 +366,7 @@
           flex-direction: row !important;
         }
 
-        #footer-gobet 
+        #footer-gobet
           > div.links-and-sm
           > div.box-one
           > div
@@ -371,7 +375,7 @@
           order: 1;
         }
 
-        #footer-gobet 
+        #footer-gobet
           > div.links-and-sm
           > div.box-one
           > div
@@ -380,7 +384,7 @@
           order: 2;
         }
 
-        #footer-gobet 
+        #footer-gobet
           > div.links-and-sm
           > div.box-one
           > div
@@ -390,7 +394,7 @@
           order: 1;
         }
 
-        #footer-gobet 
+        #footer-gobet
           > div.links-and-sm
           > div.box-one
           > div
@@ -400,7 +404,7 @@
           order: 2;
         }
 
-        #footer-gobet 
+        #footer-gobet
           > div.links-and-sm
           > div.box-one
           > div
@@ -409,21 +413,21 @@
           gap: 75px;
         }
 
-        #footer-gobet  > div.links-and-sm > div.box-one > div > div.links-two {
+        #footer-gobet > div.links-and-sm > div.box-one > div > div.links-two {
           gap: 75px;
         }
 
-        .sm-links {
+        #footer-gobet .sm-links {
           display: flex;
           flex-direction: column;
         }
 
-        .sm-links .links-row {
+        #footer-gobet .sm-links .links-row {
           display: flex;
           gap: 15px;
         }
-        
-        .sm-title {
+
+        #footer-gobet .sm-title {
           display: block;
           color: #cbdb2f;
           font-size: 14px;
@@ -432,7 +436,7 @@
           margin-bottom: 13px;
         }
 
-        #footer-gobet  > div.links-and-sm > div.box-two {
+        #footer-gobet > div.links-and-sm > div.box-two {
           justify-content: start;
         }
 
@@ -440,7 +444,7 @@
           width: 175px;
         }
 
-        #footer-gobet .box-four .sponsors img:nth-child(1) {
+        #footer-gobet .box-four .sponsors .rally-logo {
           width: 100px;
           height: 45px;
         }
@@ -453,13 +457,13 @@
           display: none;
         }
 
-        #footer-gobet  > div.box-five > div > p {
+        #footer-gobet > div.box-five > div > p {
           padding: 0;
           text-align: justify;
           padding-left: 50px;
         }
 
-        .box-five:before {
+        #footer-gobet .box-five:before {
           content: "";
           display: block;
           margin-left: 0;
@@ -467,14 +471,14 @@
           height: 0.5px;
           background-color: #707070;
         }
-        
-        .box-five .logo-and-dscrb {
+
+        #footer-gobet .box-five .logo-and-dscrb {
           padding-top: 20px;
           padding-bottom: 200px;
           flex-direction: row;
         }
 
-        .box-five .logo-and-dscrb .xl-new-line {
+        #footer-gobet .box-five .logo-and-dscrb .xl-new-line {
           display: block;
         }
       }
@@ -489,42 +493,114 @@
               <div class="information-links">
                 <div class="allinfolinks">
                   <p class="title-links">Informacje</p>
-                  <a href="" class="link-page">O nas</a>
-                  <a href="" class="link-page">Pomoc</a>
-                  <a href="" class="link-page">FAQ</a>
-                  <a href="" class="link-page">Regulaminy</a>
-                  <a href="" class="link-page">Polityka prywatności</a>
+                  <a href="https://www.goplusbet.pl/o-nas" class="link-page"
+                    >O nas</a
+                  >
+                  <a href="https://www.goplusbet.pl/pomoc" class="link-page"
+                    >Pomoc</a
+                  >
+                  <a href="https://www.goplusbet.pl/faq" class="link-page"
+                    >FAQ</a
+                  >
+                  <a
+                    href="https://www.goplusbet.pl/regulaminy"
+                    class="link-page"
+                    >Regulaminy</a
+                  >
+                  <a
+                    href="https://www.goplusbet.pl/polityka-prywatnosci"
+                    class="link-page"
+                    >Polityka prywatności</a
+                  >
                   <a href="" class="link-page">Czat</a>
-                  <a href="" class="link-page">Płatności</a>
-                  <a href="" class="link-page">Szybka Rejestracja</a>
+                  <a
+                    href="https://www.goplusbet.pl/blyskawiczne-platnosci"
+                    class="link-page"
+                    >Płatności</a
+                  >
+                  <a
+                    href="https://www.goplusbet.pl/szybka-rejestracja"
+                    class="link-page"
+                    >Szybka Rejestracja</a
+                  >
                   <a href="" class="link-page">Afiliacja</a>
                 </div>
                 <div class="three-other">
-                  <a href="" class="link-page">Aplikacja</a>
-                  <a href="" class="link-page">Lokale</a>
-                  <a href="" class="link-page">Blog</a>
+                  <a href="https://www.goplusbet.pl/aplikacja" class="link-page"
+                    >Aplikacja</a
+                  >
+                  <a
+                    href="https://www.goplusbet.pl/punkty-gobet"
+                    class="link-page"
+                    >Lokale</a
+                  >
+                  <a
+                    href="https://www.goplusbet.pl/blog-sportowy"
+                    class="link-page"
+                    >Blog</a
+                  >
                 </div>
               </div>
             </div>
             <div class="links-two">
               <div class="offerlinks">
                 <p class="title-links">Oferta</p>
-                <a href="" class="link-page">Bonusy</a>
-                <a href="" class="link-page">Live</a>
-                <a href="" class="link-page">Sport</a>
-                <a href="" class="link-page">Karciane</a>
-                <a href="" class="link-page">Esport</a>
-                <a href="" class="link-page">Wirtuale</a>
-                <a href="" class="link-page">Wyniki</a>
+                <a
+                  href="https://www.goplusbet.pl/bonusy-bukmacherskie"
+                  class="link-page"
+                  >Bonusy</a
+                >
+                <a href="https://www.goplusbet.pl/live" class="link-page"
+                  >Live</a
+                >
+                <a href="https://www.goplusbet.pl/sport" class="link-page"
+                  >Sport</a
+                >
+                <a
+                  href="https://www.goplusbet.pl/gry-karciane"
+                  class="link-page"
+                  >Karciane</a
+                >
+                <a href="https://www.goplusbet.pl/esport" class="link-page"
+                  >Esport</a
+                >
+                <a href="https://www.goplusbet.pl/wirtualne" class="link-page"
+                  >Wirtuale</a
+                >
+                <a href="https://www.goplusbet.pl/wyniki" class="link-page"
+                  >Wyniki</a
+                >
               </div>
               <div class="productslinks">
                 <p class="title-links" style="margin-top: 25px">Produkty</p>
-                <a href="" class="link-page">Dream Bet</a>
-                <a href="" class="link-page">Klub GO VIP</a>
-                <a href="" class="link-page">Oferta na dzisiaj</a>
-                <a href="" class="link-page">Bonus bez depozytu</a>
-                <a href="" class="link-page">Freebet</a>
-                <a href="" class="link-page">Zakład bez ryzyka</a>
+                <a href="https://www.goplusbet.pl/dream-bet" class="link-page"
+                  >Dream Bet</a
+                >
+                <a
+                  href="https://www.goplusbet.pl/klub-go-premium"
+                  class="link-page"
+                  >Klub GO VIP</a
+                >
+                <a
+                  href="https://www.goplusbet.pl/oferta-na-dzisiaj"
+                  class="link-page"
+                  >Oferta na dzisiaj</a
+                >
+                <a
+                  href="https://www.goplusbet.pl/bonus-bez-depozytu"
+                  class="link-page"
+                  >Bonus bez depozytu</a
+                >
+                <a
+                  href="https://www.goplusbet.pl/freebet-darmowy-zaklad"
+                  class="link-page"
+                  >Freebet</a
+                >
+                <a
+                  href="https://www.goplusbet.pl/bonusy-bukmacherskie/zaklad-bez-ryzyka"
+                  class="link-page"
+                  >Zakład bez ryzyka</a
+                >
               </div>
             </div>
           </div>
@@ -533,7 +609,10 @@
           <div class="sm-links">
             <p class="sm-title">Znajdziesz nas na</p>
             <div class="links-row">
-              <a href="">
+              <a
+                href="https://www.facebook.com/GOPlusBetZakladySportowe"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30.032"
@@ -564,7 +643,7 @@
                   </g>
                 </svg>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/goplusbet/" target="_blank">
                 <svg
                   id="Group_34"
                   data-name="Group 34"
@@ -591,7 +670,7 @@
                   />
                 </svg>
               </a>
-              <a href="">
+              <a href="https://twitter.com/goplusbetpl" target="_blank">
                 <svg
                   id="Group_35"
                   data-name="Group 35"
@@ -620,7 +699,10 @@
               </a>
             </div>
             <div class="links-row">
-              <a href="">
+              <a
+                href="https://www.youtube.com/channel/UCkEpyNnG4Us4NH2UHgbSfuw/featured"
+                target="_blank"
+              >
                 <svg
                   id="Group_32"
                   data-name="Group 32"
@@ -647,7 +729,7 @@
                   />
                 </svg>
               </a>
-              <a href="">
+              <a href="https://www.tiktok.com/@goplusbet_pl" target="_blank">
                 <svg
                   id="Group_36"
                   data-name="Group 36"
@@ -675,7 +757,10 @@
               </a>
             </div>
             <div class="links-row">
-              <a href="">
+              <a
+                href="https://www.linkedin.com/company/go-plus-bet"
+                target="_blank"
+              >
                 <svg
                   id="Group_31"
                   data-name="Group 31"
@@ -702,7 +787,7 @@
                   />
                 </svg>
               </a>
-              <a href="">
+              <a href="https://t.me/gobet_bonusy" target="_blank">
                 <svg
                   id="Group_30"
                   data-name="Group 30"
@@ -746,21 +831,27 @@
               <img
                 src="https://i.postimg.cc/CKZ0zhy9/gobetrally.png"
                 alt="logo go+ rally team"
+                class="rally-logo"
               />
-              <img
-                src="https://i.postimg.cc/wxfmKv83/wisla.png"
-                alt="herb wisły kraków"
-              />
+              <a href="https://wislakrakow.com/" target="_blank">
+                <img
+                  src="https://i.postimg.cc/wxfmKv83/wisla.png"
+                  alt="herb wisły kraków"
+                  class="wisla-logo"
+                />
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div class="box-five">
         <div class="logo-and-dscrb">
-          <img
-            src="https://i.postimg.cc/fRmmGSTb/gobetlogo.png"
-            alt="logo firmy go+bet"
-          />
+          <a href="https://www.goplusbet.pl/">
+            <img
+              src="https://i.postimg.cc/fRmmGSTb/gobetlogo.png"
+              alt="logo firmy go+bet"
+            />
+          </a>
           <p>
             Jesteśmy legalnym, polskim bukmacherem. Działamy na podstawie
             zezwolenia (PA11.6831.11.2021)<span class="xl-new-line">
